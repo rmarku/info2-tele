@@ -32,7 +32,7 @@ if (NOT raylib_FOUND) # if coudnt find it, download and install it
     endif()
 endif()
 
-add_executable(mi_raylib mainRaylib.c)
+add_executable(mi_raylib ej_raylib/mainRaylib.c)
 add_dependencies(mi_raylib raylib)
 target_link_libraries(mi_raylib ${raylib_LDFLAGS})
 target_include_directories(mi_raylib PRIVATE ${raylib_INCLUDE_DIRS})
