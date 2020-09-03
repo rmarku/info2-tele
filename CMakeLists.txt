@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(EjerciciosTeleC)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 90)
 
 add_executable(Ej1 Guia1/main1.c)
 add_executable(Ej2 Guia1/main2.c)
@@ -9,15 +9,18 @@ add_executable(Ej4 Guia1/main4.c)
 add_executable(Ej6 Guia1/main6.c)
 add_executable(Ej7 Guia1/main7.c)
 add_executable(Ej7-2 Guia1/main7-2.c)
+add_executable(ejemploGuia21 Guia2/ejemplo1.c)
+add_executable(ejemploGuia22 Guia2/ejemplo2.c)
+add_executable(ejemploGuia23 Guia2/ejemplo3.c)
 add_executable(test test/test1.c)
 
 
-find_package(raylib 2.6 QUIET) # Let CMake search for a raylib-config.cmake
+find_package(raylib 3.0 QUIET) # Let CMake search for a raylib-config.cmake
 if (NOT raylib_FOUND) # if coudnt find it, download and install it
     include(FetchContent)
     FetchContent_Declare(
             raylib
-            URL https://github.com/raysan5/raylib/archive/2.6.0.zip
+            URL https://github.com/raysan5/raylib/archive/3.0.0.zip
     )
     FetchContent_GetProperties(raylib)
     if (NOT raylib_POPULATED) # Have we downloaded raylib yet?
