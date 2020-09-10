@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(EjerciciosTeleC)
 
-set(CMAKE_C_STANDARD 90)
+set(CMAKE_C_STANDARD 11)
 
 add_executable(Ej1 Guia1/main1.c)
 add_executable(Ej2 Guia1/main2.c)
@@ -12,6 +12,8 @@ add_executable(Ej7-2 Guia1/main7-2.c)
 add_executable(ejemploGuia21 Guia2/ejemplo1.c)
 add_executable(ejemploGuia22 Guia2/ejemplo2.c)
 add_executable(ejemploGuia23 Guia2/ejemplo3.c)
+add_executable(G2Ej6 Guia2/ej6.c)
+
 add_executable(test test/test1.c)
 
 

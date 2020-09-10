@@ -20,10 +20,10 @@ void itoa(int n, char txt[]) {
         i--;
     }
 }
-
+//   1   0   0   .   x   x
 int main() {
-    char numero[500] = "81357";
-    char tmp[500];
+    char numero[500] = "10";
+    char tmp[500] = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";
     int cant1, cant2;
 
     // sprintf(miTexto1, "Hola mundo %d", 5654);
