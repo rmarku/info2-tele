@@ -16,6 +16,7 @@ add_executable(G2Ej6 Guia2/ej6.c)
 add_executable(G2Ej7 Guia2/ej7.c)
 add_executable(G2Ej9 Guia2/ej9.c)
 add_executable(G2Ej11 Guia2/ej11.c)
+add_executable(G2Ej16 Guia2/ej16.c)
 
 add_executable(test test/test1.c)
 

@@ -21,7 +21,16 @@ int main() {
     srand(time(NULL));
 
     for (int i = 0; i < 25; i++)
-        vector[i] = rand() % 25 + 65;
+        vector[i] = rand() % 26 + 65;
+
+    /*
+     *    65 ->  'A'
+     *    90 ->  'Z'
+     *    rand             -> de 0 a 2147483647 (RAND_MAX)
+     *    rand % 26        ->  0  a 25
+     *    (rand % 26) + 65 ->  65 a 90
+     */
+
 
     for (int i = 0; i < 25; i++)
         putchar(vector[i]);
