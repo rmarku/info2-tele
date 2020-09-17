@@ -13,7 +13,9 @@ add_executable(ejemploGuia21 Guia2/ejemplo1.c)
 add_executable(ejemploGuia22 Guia2/ejemplo2.c)
 add_executable(ejemploGuia23 Guia2/ejemplo3.c)
 add_executable(G2Ej6 Guia2/ej6.c)
+add_executable(G2Ej7 Guia2/ej7.c)
 add_executable(G2Ej9 Guia2/ej9.c)
+add_executable(G2Ej11 Guia2/ej11.c)
 
 add_executable(test test/test1.c)
 

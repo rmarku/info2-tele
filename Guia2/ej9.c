@@ -26,13 +26,13 @@ int main() {
 /* er el lindo perro saltaba el rio.
  * el
  */
-int buescarSimple(char *oracion, char *busqueda) {
+int buescarSimple(char *subOracion, char *busqueda) {
     //                  casa           casamiento
     int largo_busqueda = strlen(busqueda);
     int resultado = 1;
 
     for (int i = 0; i < largo_busqueda; i++) {
-        if (oracion[i] == '\0' || oracion[i] != busqueda[i]) {
+        if (subOracion[i] != busqueda[i]) {
             resultado = 0;
             break;
         }
