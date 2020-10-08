@@ -9,6 +9,7 @@ add_executable(Ej4 Guia1/main4.c)
 add_executable(Ej6 Guia1/main6.c)
 add_executable(Ej7 Guia1/main7.c)
 add_executable(Ej7-2 Guia1/main7-2.c)
+
 add_executable(ejemploGuia21 Guia2/ejemplo1.c)
 add_executable(ejemploGuia22 Guia2/ejemplo2.c)
 add_executable(ejemploGuia23 Guia2/ejemplo3.c)
@@ -17,6 +18,8 @@ add_executable(G2Ej7 Guia2/ej7.c)
 add_executable(G2Ej9 Guia2/ej9.c)
 add_executable(G2Ej11 Guia2/ej11.c)
 add_executable(G2Ej16 Guia2/ej16.c)
+
+add_executable(G4Ej1 Guia4/ej1.c)
 
 add_executable(test test/test1.c)
 
