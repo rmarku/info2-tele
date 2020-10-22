@@ -21,6 +21,9 @@ add_executable(G2Ej16 Guia2/ej16.c)
 
 add_executable(G4Ej1 Guia4/ej1.c)
 
+add_executable(G4Ej4 Guia4/ej4.c)
+target_link_libraries(G4Ej4 m)
+
 add_executable(test test/test1.c)
 
 
